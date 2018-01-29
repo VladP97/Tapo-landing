@@ -2,7 +2,7 @@
 
 }
 body {
-    background-image: url(./images/fireplace-modern-amazing-trendy-and-modern-fireplaces-modern-new-2017.jpg);
+    background-image: url(./Images/fireplace-modern-amazing-trendy-and-modern-fireplaces-modern-new-2017.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     font-family: ubuntu;
@@ -16,9 +16,9 @@ a {
 }
 
 h2 {
-    -webkit-border-image: url(./images/Lower_Border.png) round 25;
-    -o-border-image: url(./images/Lower_Border.png) round 25;
-    border-image: url(./images/Lower_Border.png) round 25;
+    -webkit-border-image: url(./Images/Lower_Border.png) round 25;
+    -o-border-image: url(./Images/Lower_Border.png) round 25;
+    border-image: url(./Images/Lower_Border.png) round 25;
     color: rgb(0, 0, 0);
     border-bottom: 25px solid rgb(62, 62, 62);
     font-size: 52px;
@@ -125,9 +125,9 @@ header > div > p.active {
 }
 
 .about > h2 {
-    -webkit-border-image: url(./images/Lower_Border_White.png) round 25;
-    -o-border-image: url(./images/Lower_Border_White.png) round 25;
-    border-image: url(./images/Lower_Border_White.png) round 25;
+    -webkit-border-image: url(./Images/Lower_Border_White.png) round 25;
+    -o-border-image: url(./Images/Lower_Border_White.png) round 25;
+    border-image: url(./Images/Lower_Border_White.png) round 25;
     text-align: center;
     margin-left: 30%;
     margin-right: 30%;
@@ -153,9 +153,9 @@ header > div > p.active {
 }
 
 .our-products > h2 {
-    -webkit-border-image: url(./images/Lower_Border.png) round 25;
-    -o-border-image: url(./images/Lower_Border.png) round 25;
-    border-image: url(./images/Lower_Border.png) round 25;
+    -webkit-border-image: url(./Images/Lower_Border.png) round 25;
+    -o-border-image: url(./Images/Lower_Border.png) round 25;
+    border-image: url(./Images/Lower_Border.png) round 25;
     text-align: center;
     margin-left: 30%;
     margin-right: 30%;
@@ -468,9 +468,9 @@ footer {
     font-family: pt-sans;
     font-size: 28pt;
     padding-bottom: 4%;
-    -webkit-border-image: url(./images/Lower_Border.png) round 25;
-    -o-border-image: url(./images/Lower_Border.png) round 25;
-    border-image: url(./images/Lower_Border.png) round 25;
+    -webkit-border-image: url(./Images/Lower_Border.png) round 25;
+    -o-border-image: url(./Images/Lower_Border.png) round 25;
+    border-image: url(./Images/Lower_Border.png) round 25;
     border-bottom: 25px solid rgb(62, 62, 62);
 }
 
