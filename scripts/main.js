@@ -8,9 +8,13 @@ $(window).scroll(() => {
         $('#header').children().removeClass('active');
         $('#main').addClass('active');
     }
-    if ($('.container').offset().top - $('header').innerHeight() - 50 < $(window).scrollTop()) {
+    if ($('#how-it-works').offset().top - $('header').innerHeight() - 50 < $(window).scrollTop()) {
         $('#header').children().removeClass('active');
         $('#gallery').addClass('active');
+    }
+    if ($('#for-purchasers-block').offset().top - $('header').innerHeight() - 50 < $(window).scrollTop()) {
+        $('#header').children().removeClass('active');
+        $('#for-purchasers').addClass('active');
     }
     if ($('#contactsBlock').offset().top - $('header').innerHeight() - 50 < $(window).scrollTop()) {
         $('#header').children().removeClass('active');
@@ -90,6 +94,33 @@ $('#contacts').click(function scrollTo() {
     if (window.pageYOffset + 50 > $('#contactsBlock').offset().top) {
         if (((window.pageYOffset + 50) - $('#contactsBlock').offset().top) < 50) {
             window.scrollBy(0, -((window.pageYOffset + 50) - $('#contactsBlock').offset().top));
+            return;
+        }
+        window.scrollBy(0, -50);
+        requestAnimationFrame(scrollTo);
+    }
+});
+
+$('#for-purchasers').click(function scrollTo() {
+  if (window.pageYOffset + 50 < $('#for-purchasers-block').offset().top) {
+      if (($('#for-purchasers-block').offset().top - (window.pageYOffset + 50)) < 50) {
+          window.scrollBy(0, $('#for-purchasers-block').offset().top - (window.pageYOffset + 50));
+          return;
+      }
+      window.scrollBy(0, 50);
+      requestAnimationFrame(scrollTo);
+  }
+    if (window.pageYOffset + 50 < $('#for-purchasers-block').offset().top) {
+        if (($('#for-purchasers-block').offset().top - (window.pageYOffset + 50)) < 50) {
+            window.scrollBy(0, $('#for-purchasers-block').offset().top - (window.pageYOffset + 50));
+            return;
+        }
+        window.scrollBy(0, 50);
+        requestAnimationFrame(scrollTo);
+    }
+    if (window.pageYOffset + 50 > $('#for-purchasers-block').offset().top) {
+        if (((window.pageYOffset + 50) - $('#for-purchasers-block').offset().top) < 50) {
+            window.scrollBy(0, -((window.pageYOffset + 50) - $('#for-purchasers-block').offset().top));
             return;
         }
         window.scrollBy(0, -50);

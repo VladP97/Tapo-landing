@@ -1,6 +1,15 @@
 @media (min-width: 768px){
 
 }
+
+.logo {
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  width: 20%;
+  z-index: 999;
+}
+
 body {
     background-image: url(./Images/fireplace-modern-amazing-trendy-and-modern-fireplaces-modern-new-2017.jpg);
     background-repeat: no-repeat;
@@ -189,7 +198,7 @@ header > div > p.active {
 }
 
 .application-area > div {
-    margin: auto;
+    margin: 0px auto;
 }
 
 .application-area-description {
@@ -292,6 +301,7 @@ header > div > p.active {
 .goods-description-img {
     display: block;
     margin: 25px auto;
+    width: 100%;
 }
 
 .goods-description-heading {
@@ -484,4 +494,8 @@ footer {
     background: rgb(117, 19, 19);
     color: #fff;
     text-decoration: none;
+}
+
+.work {
+  margin-top: 2%;
 }
