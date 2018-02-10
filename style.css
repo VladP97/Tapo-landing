@@ -286,6 +286,7 @@ header > div > p.active {
 
 .description > p {
     padding: 20px;
+    text-overflow: ellipsis;
 }
 
 .description > .btn {
@@ -424,7 +425,7 @@ footer {
     }
 
     .image-text > h1 {
-        padding-bottom: 8%;
+        padding-bottom: 20%;
     }
 
     .about > p {
@@ -498,4 +499,12 @@ footer {
 
 .work {
   margin-top: 2%;
+}
+
+.container {
+  box-sizing: border-box;
+}
+
+.for-custumers-image {
+  background-image: url(./Images/deliver.jpg);
 }
