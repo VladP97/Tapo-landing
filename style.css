@@ -506,10 +506,6 @@ footer {
   box-sizing: border-box;
 }
 
-.for-custumers-image {
-  background-image: url(./Images/deliver.jpg);
-}
-
 .body-goods {
   background-image: none;
   margin: 0 4%;
@@ -518,4 +514,16 @@ footer {
 .logo-link {
   margin-top: 2%;
   width: 20%;
+}
+
+.for-purchasers-block-image {
+  padding: 10% 0;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.65),
+      rgba(255, 255, 255, 0.65)
+    ), url(./Images/deliver.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 150%;
+  margin-bottom: 3%;
 }

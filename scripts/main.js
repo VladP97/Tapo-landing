@@ -102,14 +102,6 @@ $('#contacts').click(function scrollTo() {
 });
 
 $('#for-purchasers').click(function scrollTo() {
-  if (window.pageYOffset + 50 < $('#for-purchasers-block').offset().top) {
-      if (($('#for-purchasers-block').offset().top - (window.pageYOffset + 50)) < 50) {
-          window.scrollBy(0, $('#for-purchasers-block').offset().top - (window.pageYOffset + 50));
-          return;
-      }
-      window.scrollBy(0, 50);
-      requestAnimationFrame(scrollTo);
-  }
     if (window.pageYOffset + 50 < $('#for-purchasers-block').offset().top) {
         if (($('#for-purchasers-block').offset().top - (window.pageYOffset + 50)) < 50) {
             window.scrollBy(0, $('#for-purchasers-block').offset().top - (window.pageYOffset + 50));
