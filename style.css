@@ -207,6 +207,8 @@ header > div > p.active {
 
 .goods-information-big-image {
     float: left;
+    display: inline-block;
+    width: 40%;
 }
 
 .full-description {
@@ -526,4 +528,18 @@ footer {
   background-repeat: no-repeat;
   background-size: 150%;
   margin-bottom: 3%;
+}
+
+.fa-check {
+  color: #62a71e;
+}
+
+.how-it-works {
+  margin: 2% 0;
+    padding: 2% 5%;
+    background:linear-gradient(
+        rgba(255, 255, 255, 0.65),
+        rgba(255, 255, 255, 0.65)
+      ), url(./Images/Kamin_drovjanoj_STUV_Stuv_21-135.jpg);
+    background-position: center;
 }

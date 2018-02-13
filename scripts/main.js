@@ -59,17 +59,17 @@ $('#catalog').click(function scrollTo() {
 });
 
 $('#gallery').click(function scrollTo() {
-    if (window.pageYOffset + 50 < $('.container').offset().top) {
-        if (($('.container').offset().top - (window.pageYOffset + 50)) < 50) {
-            window.scrollBy(0, $('.container').offset().top - (window.pageYOffset + 50));
+    if (window.pageYOffset + 50 < $('#how-it-works').offset().top) {
+        if (($('#how-it-works').offset().top - (window.pageYOffset + 50)) < 50) {
+            window.scrollBy(0, $('#how-it-works').offset().top - (window.pageYOffset + 50));
             return;
         }
         window.scrollBy(0, 50);
         requestAnimationFrame(scrollTo);
     }
-    if (window.pageYOffset + 50 > $('.container').offset().top) {
-        if (((window.pageYOffset + 50) - $('.container').offset().top) < 50) {
-            window.scrollBy(0, -((window.pageYOffset + 50) - $('.container').offset().top));
+    if (window.pageYOffset + 50 > $('#how-it-works').offset().top) {
+        if (((window.pageYOffset + 50) - $('#how-it-works').offset().top) < 50) {
+            window.scrollBy(0, -((window.pageYOffset + 50) - $('#how-it-works').offset().top));
             return;
         }
         window.scrollBy(0, -50);
